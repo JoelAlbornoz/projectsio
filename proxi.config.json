@@ -1,0 +1,7 @@
+{
+    "//*": {
+      "target": "https://socktest.glitch.me",
+      "secure": false,
+      "changeOrigin": true
+    }
+  }

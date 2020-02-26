@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --proxy-config proxi.config.json",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -19,7 +19,9 @@
     "@angular/platform-browser": "~9.0.2",
     "@angular/platform-browser-dynamic": "~9.0.2",
     "@angular/router": "~9.0.2",
+    "express": "^4.17.1",
     "rxjs": "~6.5.4",
+    "socket.io-client": "^2.3.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
   },
